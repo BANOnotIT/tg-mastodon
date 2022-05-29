@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tgchannel-mastodon"
+version = "0.1.0"
+description = ""
+authors = ["BANO.notIT <bano.notit@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+"Mastodon.py" = "^1.5.1"
+Scrapy = "^2.6.1"
+toml = "^0.10.2"
+typer = "^0.4.1"
+schema = "^0.7.5"
+html2text = "^2020.1.16"
+
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
